@@ -232,7 +232,7 @@ CWARNINGS = -Wall \
 	-Wno-char-subscripts \
 	-Wno-unused-result
 
-CFLAGS = -g $(sysconfigflags) $(prereleaseflags) $(CWARNINGS) $(customflags)
+CFLAGS = -fcommon -g $(sysconfigflags) $(prereleaseflags) $(CWARNINGS) $(customflags)
 
 # Don't worry about these -- for development purposes only.
 PURIFY = purify
